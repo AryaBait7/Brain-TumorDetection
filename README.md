@@ -1,1 +1,4 @@
-# Brain-TumorDetection
+Automated segmentation of brain tumors plays a pivotal role in clinical workflows, aiding radiologists in treatment planning, surgical mapping, and tracking disease progression. This project implements an end-to-end medical image segmentation pipeline involving:
+- **Data Querying & Mapping**: Automatically parsing structural scans and matching them to their corresponding ground-truth genomic tumor masks using file-globbing techniques.
+- **Preprocessing Pipeline**: Resizing structural images to a uniform shape ($256 \times 256$), color space extraction, and normalizing intensity arrays.
+- **Deep Architecture**: Employing a deep Convolutional Neural Network (U-Net) featuring a contracting feature-extraction path and an expanding spatial-reconstruction path interconnected by skip connections.
